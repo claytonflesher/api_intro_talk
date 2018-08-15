@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>APIs and REST</title>
+    <meta charset="utf-8">
+    <style>
+    @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+        @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+        @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+        body { font-family: 'Droid Serif'; }
+        h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+        }
+        .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+        </style>
+        </head>
+        <body>
+            <textarea id="source">
+class: middle center
+
+# APIs and REST
+***
+## An Introduction
+---
+class: middle left
+
+# Student Introductions
+***
+### Your name
+### Experience with
+- APIs
+- REST
+- What you hope to get out of today
+---
+class: middle left
+
+# At the end of this presentation you should be able to
+***
+## Explain what web services and APIs are
+## Explain what makes up a REST service
+## Explore an API's documentation
+## Know how to make a call to an API
+---
+class: left
+
+# What an API is...
+***
+---
+class: left
+
+# What an API is...
+***
+## Application Programming Interface
+---
+class: left
+
+# What an API is...
+***
+## Application Programming Interface
+## Makes it possible for our applications to talk to other applications through some kind of interface and with some particular protocol.
+---
+class: left
+
+# What an API is...
+***
+## Application Programming Interface
+## Makes it possible for our applications to talk to other applications through some kind of interface and with some particular protocol.
+## Can be contrasted with a Graphical User Interface (GUI), which is designed for people to interact with an application.
+---
+class: left
+# What an API does...
+---
+class: left
+# What an API does...
+***
+## An API provides the information for how to communicate with a piece of software.
+ - What calls you can make
+
+ - What data you need to send when you make the calls and how to structure that data
+
+ - The responses you'll recieve back from calls
+
+ - The data types that can be sent and will be returned: JSON, XML, etc.
+
+---
+class: left
+# What a Web Service is...
+***
+---
+class: left
+# What a Web Service is...
+***
+## A service that makes it possible for our applications to talk to other applications over the web.
+---
+class: left
+# What a Web Service is...
+***
+## A service that makes it possible for our applications to talk to other applications over the web.
+## An API that can be talked to over the internet.
+---
+class: left
+# A Little History...
+***
+## Year: 1998
+## Location: Microsoft
+## Outcome: SOAP WSDLs
+## Data Type: XML
+## Result: A decade of pain
+
+???
+One Week by Barenaked Ladies
+This Kiss by Faith Hill
+
+Simple Object Access Protocol
+Web Services Description Language
+---
+class: left
+# What a REST Web Service is...
+***
+---
+class: left
+# What a REST Web Service is...
+***
+## Representational State Transfer
+---
+class: left
+# What a REST Web Service is...
+***
+## Representational State Transfer
+## Uses HTTP Protocol
+
+???
+ATM Machine
+Hypertext Transfer Protocol Protocol
+---
+class: left
+# How a REST API works...
+***
+## Two components of a REST call
+  - A Resource to act upon, respresented by a URI
+
+  - A method to perform on that resource
+---
+class: left
+# HTTP Methods...
+***
+## GET: Retrieves the current state of a resource in the system
+## POST: Create a new resource
+---
+class: left
+# HTTP Methods...
+***
+## DELETE: Deletes a resource
+## PUT: Replaces a resource completely or creates it if it doesn't already exist
+## PATCH: Updates the resource with the data submitted
+---
+class: left
+# Example Requests...
+***
+## (GET)/users
+#### Retrieves all users
+## (GET)/users/20
+#### Retrieves the user with the ID 20
+## (GET)/users?firstName=David
+#### Retrieves all users with the first name of David
+---
+class: left
+# Example Requests...
+***
+## (POST)/users with a JSON body
+#### Creates a new user
+## (DELETE)/users/20
+#### Deletes the user with the ID 20
+## (PUT)/users/20 with a JSON body
+#### Updates the user with the ID 20
+---
+
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+     remark.create();
+    </script>
+  </body>
+</html>
